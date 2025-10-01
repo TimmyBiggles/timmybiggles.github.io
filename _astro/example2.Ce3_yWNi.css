@@ -1,0 +1,304 @@
+:root {
+  --color-teal1: #41d9d9;
+  --color-teal2: #265573;
+  --color-teal3: #4ba4f2;
+  --color-teal4: #142f40;
+  --color-teal5: #0b1e26;
+  --color-teal6: #4d6376;
+  --color-orange1: #fff5ee;
+  --color-orange2: #ffe5b4;
+  --color-orange3: #ffdead;
+  --color-orange4: #ff7f50;
+  --color-orange5: #ff5f15;
+}
+#content[data-astro-cid-uncumcfx] {
+  background-color: var(--color-teal5);
+  padding-inline: 32px;
+  padding-block: 32px;
+  color: #fff;
+  section {
+    padding-bottom: 48px;
+  }
+}
+main[data-astro-cid-uncumcfx] {
+  min-height: 100vh;
+}
+.hero[data-astro-cid-uncumcfx] {
+  text-align: center;
+  font-size: 5vw;
+  font-weight: 750;
+  color: #fff;
+  text-transform: uppercase;
+}
+h2[data-astro-cid-uncumcfx] {
+  padding-bottom: 10px;
+}
+html {
+  background-color: #333;
+}
+.wrapper[data-astro-cid-uncumcfx] {
+  width: 100%;
+  section {
+    width: 100%;
+    max-width: 1000px;
+    margin-inline: auto;
+  }
+}
+section[data-astro-cid-uncumcfx] {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  padding-top: 48px;
+}
+article[data-astro-cid-uncumcfx] {
+  background-color: var(--color-teal6);
+  flex-basis: 33%;
+  color: var(--color-orange1);
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  overflow: hidden;
+  h2 {
+    color: var(--color-orange2);
+  }
+}
+article[data-astro-cid-uncumcfx] div[data-astro-cid-uncumcfx] {
+  padding: 20px;
+}
+article[data-astro-cid-uncumcfx] h2[data-astro-cid-uncumcfx] {
+  text-align: center;
+}
+article[data-astro-cid-uncumcfx] {
+  ul {
+    padding: 0;
+    list-style: none;
+    li {
+      padding-bottom: 12px;
+      &:last-of-type {
+        padding-bottom: 0;
+      }
+    }
+  }
+}
+article[data-astro-cid-uncumcfx] img[data-astro-cid-uncumcfx],
+article[data-astro-cid-uncumcfx] video[data-astro-cid-uncumcfx] {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  object-position: center;
+}
+div[data-astro-cid-uncumcfx].previewvideo.previewvideo.previewvideo {
+  position: relative;
+  height: 250px;
+  isolation: isolate;
+  cursor: pointer;
+  padding: 0;
+}
+.previewvideo[data-astro-cid-uncumcfx] video[data-astro-cid-uncumcfx],
+.previewvideo[data-astro-cid-uncumcfx] img[data-astro-cid-uncumcfx] {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+.previewvideo[data-astro-cid-uncumcfx] video[data-astro-cid-uncumcfx] {
+  z-index: 1;
+}
+.previewvideo[data-astro-cid-uncumcfx] img[data-astro-cid-uncumcfx] {
+  z-index: 2;
+  pointer-events: none;
+  opacity: 1;
+  transition: opacity 0.4s ease;
+}
+.previewvideo[data-astro-cid-uncumcfx]:hover img[data-astro-cid-uncumcfx] {
+  opacity: 0;
+}
+#hero[data-astro-cid-uncumcfx] {
+  position: relative;
+  isolation: isolate;
+  width: 100%;
+  height: 400px;
+}
+#hero[data-astro-cid-uncumcfx] video[data-astro-cid-uncumcfx] {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 0;
+  left: 0;
+  top: 0;
+  object-fit: cover;
+}
+#hero-title[data-astro-cid-uncumcfx] {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+#Controller[data-astro-cid-uncumcfx] {
+  height: 200px;
+  width: 100%;
+  background-image: url('../pscontroller.webp');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+html {
+  scroll-behavior: smooth;
+}
+#outsidewrapper[data-astro-cid-uncumcfx] {
+  background-color: var(--color-teal4);
+}
+#outsideschool[data-astro-cid-uncumcfx] {
+  height: 50vh;
+  color: var(--color-orange1);
+  padding-inline: 40px;
+  font-size: 1.5vw;
+  display: flex;
+  flex-direction: column;
+  h2 {
+    color: var(--color-orange2);
+  }
+}
+.menu-list[data-astro-cid-uncumcfx] {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  list-style: none;
+}
+.menu-list[data-astro-cid-uncumcfx] a[data-astro-cid-uncumcfx] {
+  color: #fff;
+}
+.menu-list[data-astro-cid-uncumcfx] a[data-astro-cid-uncumcfx]:hover {
+  color: #00bfff;
+}
+header[data-astro-cid-uncumcfx] {
+  background-color: #000;
+  color: #fff;
+  box-shadow: 0 0 6px 6px rgb(from black r g b / 0.5);
+  position: relative;
+  z-index: 3;
+}
+header[data-astro-cid-uncumcfx] > div[data-astro-cid-uncumcfx] {
+  width: 100%;
+  max-width: 1000px;
+  margin-inline: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+#footer-wraper[data-astro-cid-uncumcfx] {
+  background: var(--color-teal5);
+  width: 100%;
+}
+footer[data-astro-cid-uncumcfx] {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-auto-rows: auto;
+  width: 100%;
+  max-width: 1000px;
+  margin-inline: auto;
+  font-size: 20px;
+  padding-left: 15px;
+  background: var(--color-teal5);
+}
+footer[data-astro-cid-uncumcfx] a[data-astro-cid-uncumcfx] {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  color: #fff;
+}
+#upbox[data-astro-cid-uncumcfx] {
+  grid-column: 2;
+  grid-row: 1;
+  margin-block: auto;
+  width: auto;
+  align-self: end;
+  justify-self: end;
+  a {
+    width: 80px;
+    height: 120px;
+    border-radius: 12px;
+    background: var(--color-teal1);
+    overflow: hidden;
+    div {
+      width: 100%;
+      align-content: center;
+      justify-items: center;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      transition: background 1s ease;
+      &:hover {
+        background: radial-gradient(circle at bottom, #ff5f15, #0000);
+      }
+      span {
+        font-size: 48px;
+      }
+    }
+  }
+}
+#testimonial[data-astro-cid-uncumcfx] {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-orange5);
+  font-style: italic;
+}
+#footertext[data-astro-cid-uncumcfx] {
+  grid-column: 1;
+  grid-row: 1;
+  color: #fff;
+  margin-top: 48px;
+  h2 {
+    font-size: 32pt;
+    font-weight: 500;
+    color: var(--color-orange2);
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 48px;
+    li {
+      font-size: 14pt;
+      font-weight: 400;
+      padding-bottom: 6px;
+      color: var(--color-orange1);
+      &:last-of-type {
+        padding-bottom: 0;
+      }
+      span {
+        padding-right: 1ch;
+        vertical-align: middle;
+      }
+    }
+  }
+}
+#copy[data-astro-cid-uncumcfx] {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row: 2;
+  color: #ddd;
+  font-size: 12pt;
+  margin-bottom: 1em;
+}
+h1[data-astro-cid-uncumcfx] {
+  color: #fff;
+}
+#outsideschool[data-astro-cid-uncumcfx] a[data-astro-cid-uncumcfx] {
+  text-decoration: underline;
+}
+#outsideschool[data-astro-cid-uncumcfx] a[data-astro-cid-uncumcfx]:hover {
+  color: var(--color-orange5);
+}
+.material-symbols-outlined[data-astro-cid-uncumcfx] {
+  font-variation-settings:
+    "FILL" 0,
+    "wght" 400,
+    "GRAD" 0,
+    "opsz" 24;
+}
